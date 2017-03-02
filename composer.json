@@ -1,0 +1,33 @@
+{
+    "name": "ipaya/yii2-moment",
+    "description": "The MomentJS extension for Yii2.",
+    "homepage": "git@github.com:iPaya/yii2-moment.git",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii2",
+        "extension",
+        "MomentJS"
+    ],
+    "authors": [
+        {
+            "name": "Di Zhang",
+            "email": "zhangdi_me@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "yiisoft/yii2": "*",
+        "bower-asset/moment": "2.17.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "iPaya\\moment\\": "src"
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
