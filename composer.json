@@ -1,7 +1,7 @@
 {
     "name": "ipaya/yii2-moment",
     "description": "The MomentJS extension for Yii2.",
-    "homepage": "git@github.com:iPaya/yii2-moment.git",
+    "homepage": "https://github.com/iPaya/yii2-moment",
     "type": "yii2-extension",
     "keywords": [
         "yii2",
